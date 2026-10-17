@@ -1,0 +1,15 @@
+{
+  "last_report": "reports/daily/2026/2026-10-17.md",
+  "last_run_at": "2026-10-17T18:10:37.082007+08:00",
+  "status": "report_validated_with_verification_gaps",
+  "last_successful_window_end": null,
+  "attempted_window_end": "2026-10-17T18:00:00+08:00",
+  "retry_policy": "Retain the first unresolved window start 2026-10-10T18:00:00+08:00 until gaps are resolved; deduplicate repeated reports and recheck pending candidates.",
+  "publication_receipt_location": "Automation ai memory.md and Git remote history",
+  "failures": [
+    "CAS website fetch failed (502 on final attempt)",
+    "Both journal Insights pages returned 403; JIF year unverified",
+    "Direct DOI/ScienceDirect retrieval for C7/C8 failed",
+    "T1 initial publication time unresolved; July artifact predates October arXiv upload"
+  ]
+}

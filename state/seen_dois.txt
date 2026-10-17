@@ -1,1 +1,11 @@
 # One normalized DOI, arXiv ID, or title fallback per line.
+arxiv:2610.16012
+arxiv:2610.19278
+arxiv:2610.18609
+arxiv:2610.17332
+arxiv:2610.20831
+arxiv:2610.21034
+10.1145/3830454.3832587
+10.1016/j.adhoc.2026.104449
+10.1016/j.cviu.2026.104981
+arxiv:2610.15865

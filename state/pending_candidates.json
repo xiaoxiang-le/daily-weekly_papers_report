@@ -1,0 +1,87 @@
+{
+  "updated_at": "2026-10-17T18:10:37.082007+08:00",
+  "rule": "Recheck pending candidates even when a canonical key is in seen_dois.txt; publication/eligibility changes are new events.",
+  "candidates": [
+    {
+      "report_id": "C1",
+      "title": "Adversarial Robustness of Camera-Radar Sensor Fusion for Autonomous Driving",
+      "canonical_key": "arxiv:2610.16012",
+      "arxiv_id": "2610.16012",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.16012"
+    },
+    {
+      "report_id": "C2",
+      "title": "TrackShield: An Efficient Runtime Defense Against Availability Attacks on High-Performance Real-Time Multi-Object Tracking",
+      "canonical_key": "arxiv:2610.19278",
+      "arxiv_id": "2610.19278",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.19278"
+    },
+    {
+      "report_id": "C3",
+      "title": "DPOison-VL: Clean Preference Poisoning in Vision-Language Direct Preference Optimization",
+      "canonical_key": "arxiv:2610.18609",
+      "arxiv_id": "2610.18609",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.18609"
+    },
+    {
+      "report_id": "C4",
+      "title": "COMPASS: Membership Inference Attack Against Vision Large Language Models via Adaptive Noise Calibration",
+      "canonical_key": "arxiv:2610.17332",
+      "arxiv_id": "2610.17332",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.17332"
+    },
+    {
+      "report_id": "C5",
+      "title": "GhostLock: Learning-Assisted Blind GPS Signal Nullification Without Victim-Side Information",
+      "canonical_key": "arxiv:2610.20831",
+      "arxiv_id": "2610.20831",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.20831"
+    },
+    {
+      "report_id": "C6",
+      "title": "Can Autonomous Vehicles Keep Their Cool? A Survey of Thermal Side-Channel and Perception Attacks",
+      "canonical_key": "arxiv:2610.21034",
+      "arxiv_id": "2610.21034",
+      "status": "pending_eligible_venue",
+      "recommendation": "跟踪",
+      "source": "https://arxiv.org/abs/2610.21034"
+    },
+    {
+      "report_id": "T1",
+      "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
+      "canonical_key": "10.1145/3830454.3832587",
+      "arxiv_id": "2610.15865",
+      "status": "pending_first_publication_date",
+      "recommendation": "跟踪",
+      "source": "https://arxiv.org/abs/2610.15865"
+    },
+    {
+      "report_id": "C7",
+      "title": "From sensor trust to swarm resilience: TinyML-guided integrity-aware communication scheduling for low-altitude UAV networks",
+      "canonical_key": "10.1016/j.adhoc.2026.104449",
+      "status": "pending_cas_jif_and_direct_identity_verification",
+      "date_boundary_unresolved": true,
+      "recommendation": "跟踪",
+      "source": "https://doi.org/10.1016/j.adhoc.2026.104449"
+    },
+    {
+      "report_id": "C8",
+      "title": "Multi-cepstral feature integration for audio deepfake detection under domain shift",
+      "canonical_key": "10.1016/j.cviu.2026.104981",
+      "status": "pending_cas_jif_and_direct_identity_verification",
+      "date_boundary_unresolved": false,
+      "recommendation": "跟踪",
+      "source": "https://doi.org/10.1016/j.cviu.2026.104981"
+    }
+  ]
+}

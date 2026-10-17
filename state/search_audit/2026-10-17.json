@@ -1,0 +1,3004 @@
+{
+  "run_at": "2026-10-17T18:10:37.082007+08:00",
+  "report": "reports/daily/2026/2026-10-17.md",
+  "report_sha256": "dd3ba412403b1d28702cf144098885335238dbe4fdb0a9168517b70b36c8b5f0",
+  "window_start": "2026-10-10T18:00:00+08:00",
+  "window_end": "2026-10-17T18:00:00+08:00",
+  "queries": [
+    {
+      "id": "Q01",
+      "query": "(\"LiDAR\" OR \"radar\" OR \"camera\") (\"attack\" OR \"spoofing\") after:2026-10-09 before:2026-10-18",
+      "channel": "web search"
+    },
+    {
+      "id": "Q02",
+      "query": "(\"vision language\" OR \"multimodal\") (\"backdoor\" OR \"security\" OR \"adversarial\") after:2026-10-09 before:2026-10-18",
+      "channel": "web search"
+    },
+    {
+      "id": "Q03",
+      "query": "site:ieeexplore.ieee.org (\"perception\" OR \"sensor\") (\"attack\" OR \"security\") \"2026\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q04",
+      "query": "site:usenix.org \"2026\" \"perception\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q05",
+      "query": "site:arxiv.org/abs/2610 \"attack\" \"vision\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q06",
+      "query": "site:arxiv.org/abs/2610 \"LiDAR\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q07",
+      "query": "site:arxiv.org/abs/2610 (\"backdoor\" OR \"spoofing\" OR \"jailbreak\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q08",
+      "query": "site:sciencedirect.com \"2026\" \"October\" (\"adversarial\" OR \"spoofing\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q09",
+      "query": "\"spoofing\" \"October\" \"2026\" \"Available online\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q10",
+      "query": "\"backdoor\" \"October\" \"2026\" \"Available online\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q11",
+      "query": "\"multimodal\" \"security\" \"October 2026\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q12",
+      "query": "\"Ad Hoc Networks\" \"2026\" \"中科院\" \"影响因子\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q13",
+      "query": "site:ndss-symposium.org/ndss-paper/ \"2026\" (\"lidar\" OR \"camera\" OR \"multimodal\" OR \"sensor\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q14",
+      "query": "site:usenix.org/conference/usenixsecurity26 (\"spoofing\" OR \"perception\" OR \"backdoor\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q15",
+      "query": "site:sp2026.ieee-security.org (\"accepted\" OR \"papers\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q16",
+      "query": "site:sigsac.org/ccs/CCS2026 \"accepted papers\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q17",
+      "query": "(\"wireless sensing\" OR \"radar\" OR \"acoustic\") (\"attack\" OR \"privacy\" OR \"spoofing\") \"October 2026\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q18",
+      "query": "(\"camera\" OR \"LiDAR\" OR \"perception\") (\"attack\" OR \"adversarial\") \"October 2026\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q19",
+      "query": "(\"vision-language\" OR \"multimodal\") (\"backdoor\" OR \"jailbreak\" OR \"poisoning\") \"October 2026\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q20",
+      "query": "site:sciencedirect.com/science/article \"October 2026\" \"Available online\" (\"adversarial\" OR \"backdoor\" OR \"spoofing\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q21",
+      "query": "site:sciencedirect.com/journal/ad-hoc-networks \"2025\" \"Impact Factor\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q22",
+      "query": "\"PhantomTac\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q23",
+      "query": "\"SlowPerception\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q24",
+      "query": "site:arxiv.org \"Oct 2026\" (\"sensor\" OR \"multimodal\" OR \"vision\") (\"attack\" OR \"security\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q25",
+      "query": "\"10.1145/3830454.3832587\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q26",
+      "query": "\"Penetrating the Reality Wall\" \"2026\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q27",
+      "query": "site:ieeexplore.ieee.org \"2026\" \"October\" (\"LiDAR\" OR \"sensor spoofing\" OR \"vision-language\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q28",
+      "query": "site:link.springer.com \"October 2026\" (\"adversarial\" OR \"backdoor\") (\"vision\" OR \"perception\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q29",
+      "query": "site:sciencedirect.com \"Available online 12 October 2026\" (\"attack\" OR \"security\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q30",
+      "query": "site:sciencedirect.com \"Available online 15 October 2026\" (\"attack\" OR \"security\")",
+      "channel": "web search"
+    },
+    {
+      "id": "Q31",
+      "query": "\"Computer Vision and Image Understanding\" \"中科院\" \"2025\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q32",
+      "query": "site:sciencedirect.com/journal/computer-vision-and-image-understanding \"Impact Factor\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q33",
+      "query": "\"Multi-cepstral feature integration for audio deepfake detection under domain shift\"",
+      "channel": "web search"
+    },
+    {
+      "id": "Q34",
+      "query": "site:fenqubiao.com \"2026\" \"2025\"",
+      "channel": "web search"
+    }
+  ],
+  "source_urls": [
+    "https://arxiv.org/list/cs.CR/recent?show=2000&skip=0",
+    "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+    "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+    "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+    "https://sp2026.ieee-security.org/accepted-papers.html",
+    "https://www.fenqubiao.com/",
+    "https://doi.org/10.1109/TNNLS.2025.3592935",
+    "https://www.sciencedirect.com/science/article/pii/S0031320326004036",
+    "https://www.sciencedirect.com/science/article/abs/pii/S1568494626013384",
+    "https://www.sciencedirect.com/science/article/pii/S092523122602758X",
+    "https://www.sciencedirect.com/science/article/pii/S0925231226026949",
+    "https://www.usenix.org/conference/usenixsecurity26/presentation/yang-qin",
+    "https://arxiv.org/abs/2406.05800",
+    "https://arxiv.org/html/2610.15865v1",
+    "https://arxiv.org/abs/2610.15865",
+    "https://doi.org/10.1145/3830454.3832587",
+    "https://zenodo.org/records/21312850",
+    "https://arxiv.org/abs/2610.16012",
+    "https://arxiv.org/html/2610.16012v1",
+    "https://arxiv.org/abs/2610.19278",
+    "https://arxiv.org/abs/2610.18609",
+    "https://arxiv.org/abs/2610.17332",
+    "https://arxiv.org/abs/2610.20831",
+    "https://arxiv.org/abs/2610.21034",
+    "https://www.sciencedirect.com/science/article/pii/S157087052600315X",
+    "https://doi.org/10.1016/j.adhoc.2026.104449",
+    "https://www.sciencedirect.com/browse/calls-for-papers?subject=computer-networks-and-communications",
+    "https://www.sciencedirect.com/journal/ad-hoc-networks/about/insights",
+    "https://www.sciencedirect.com/science/article/pii/S1077314226003486",
+    "https://doi.org/10.1016/j.cviu.2026.104981",
+    "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/vol/230/suppl/C",
+    "https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/about/insights"
+  ],
+  "arxiv_listing_url": "https://arxiv.org/list/cs.CR/recent?show=2000&skip=0",
+  "arxiv_snapshot_sha256": "014dc442da551302eac2a1b7e326b3ae5b1c5cf7d534dea02718b02bd1b3b4a8",
+  "counts": {
+    "title_records": 334,
+    "listing_date_before_window": 60,
+    "remaining_title_records": 274,
+    "arxiv_detailed_review": 7,
+    "not_selected_for_detailed_review": 267,
+    "additional_journal_review": 2,
+    "detailed_entities": 9,
+    "historical_duplicates": 0,
+    "verified_journals": 0,
+    "verified_new_security_conference": 0,
+    "candidate_entries": 8,
+    "conference_timing_hold": 1,
+    "must_read": 0,
+    "zotero_imports": 0
+  },
+  "coverage_note": "Title screening is not full-text screening. 267 not-selected records remain eligible for later assessment and are not added to seen. General web search hits are not counted as a database census.",
+  "records": [
+    {
+      "arxiv_id": "2610.22301",
+      "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22301",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.22244",
+      "title": "Language Is a Security Surface for Agent Guards",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22244",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.22148",
+      "title": "MAppPrint: Robust and Real-time Mobile App Fingerprinting via Traffic Behavior Correlation Graphs",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22148",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.22047",
+      "title": "SMT-Boosted Security Types and Correctness for Low-Level MPC",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22047",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21713",
+      "title": "Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21713",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21565",
+      "title": "BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21565",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21526",
+      "title": "On the Robustness of Gossip Protocols in Modern Blockchains",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21526",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21464",
+      "title": "Poisoning the Neighborhood: A Topology-Aware Topic-Level Attack on Large-Scale HNSW-based RAG Systems",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21464",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21458",
+      "title": "What Survives Self-Evolution: Provenance Marks in Copied Agent Harnesses",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21458",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21457",
+      "title": "Benchmarking Post-Quantum Key Encapsulation in S3-Compatible Object Storage under Client Concurrency",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21457",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21394",
+      "title": "Matoi: Selective Revalidation of Consequence Evidence for Agent Authorization",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21394",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21373",
+      "title": "Evaluating and Improving Static Application Security Testing Tools for Rust",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21373",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21309",
+      "title": "Combining LLM and Dynamic Analysis for Universal Testing of Static Application Security Testing Tools",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21309",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21276",
+      "title": "When Rotation Bounds Nothing: Streaming Image Classifiers to Field Nodes Under Physical Capture",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21276",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21269",
+      "title": "Trigger Value Selection in Clean-Label Malware Backdoors: An Effectiveness-Detectability Analysis",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21269",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21245",
+      "title": "From One Query to Many: A Critical Survey of Privacy Accounting in RAG",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21245",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21216",
+      "title": "On the Complexity of Symmetric Boolean Functions in Multiparty Private Simultaneous Messages",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21216",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21208",
+      "title": "Clean Data Can Still Carry Backdoors: Support-Persistent Backdoors for Model Reuse",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21208",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21194",
+      "title": "FedSumUp: User-Auditable Privacy-Aware Representation Sharing for Resource-Constrained Federated Intelligence",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21194",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21151",
+      "title": "CARE-SD: Explainable Reasoning Architecture for Local SLM Self-Disclosure Analysis in Textual Data",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21151",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21146",
+      "title": "ExecWeave: Cross-Layer Execution Provenance for Observable Agentic Software",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21146",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21135",
+      "title": "Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21135",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21127",
+      "title": "Reaction Attack on CKKS Deployments with Asymptotically Optimal Query Complexity",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21127",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21063",
+      "title": "Approve What, Exactly? Effect Binding and Trusted Rendering for Agent Step-Up Authorization",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21063",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21059",
+      "title": "NOMAI: Scalable Federated Learning with Private Weights",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21059",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21034",
+      "title": "Can Autonomous Vehicles Keep Their Cool? A Survey of Thermal Side-Channel and Perception Attacks",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21034",
+      "decision": "detailed_candidate_review",
+      "report_id": "C6"
+    },
+    {
+      "arxiv_id": "2610.21031",
+      "title": "Blind Watermarking of Software Repositories via Module Placement",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21031",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20962",
+      "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20962",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20952",
+      "title": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20952",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20941",
+      "title": "Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20941",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20907",
+      "title": "From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20907",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20902",
+      "title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20902",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20831",
+      "title": "GhostLock: Learning-Assisted Blind GPS Signal Nullification Without Victim-Side Information",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20831",
+      "decision": "detailed_candidate_review",
+      "report_id": "C5"
+    },
+    {
+      "arxiv_id": "2610.20827",
+      "title": "Performance Characterization of Pulsar's Software-defined Watermark Verifier",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20827",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20796",
+      "title": "Privacy-Preserving Text Inference for Health-Misinformation Classification and Semantic Retrieval",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20796",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20776",
+      "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20776",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20754",
+      "title": "Foundations of Hardware-Software Leakage Contracts",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20754",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20668",
+      "title": "CascadeLedger: Counterfactual Auditing of Information and Resource Integrity in LLM Cascades",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20668",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20661",
+      "title": "Hybrid DeepXAI Fusion Network for Interpretable Big Data Analytics and Secure Cloud Decision-Making Systems",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20661",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20658",
+      "title": "Empirical Evaluation of Machine Learning for Cloud Cryptojacking Detection: Effects of Preprocessing and Evaluation Protocols",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20658",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20656",
+      "title": "Unmasking the Secret Code: Using Canaries to Show How Masked Context Controls Memorization in SFT",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20656",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20647",
+      "title": "Forensic Analysis of the HackRF One with PortaPack Mayhem Firmware",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20647",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.22297",
+      "title": "Private Retrieval Augmented Generation via Random Projection",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22297",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.22278",
+      "title": "Subgraph Counting with Local Node Differential Privacy",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22278",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.22243",
+      "title": "Shortcut Sensitivity in Agent-Safety Evaluations",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.22243",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21547",
+      "title": "Federated Art Chase: Privacy Leakage and Data Poisoning in Federated Fine-Tuning",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21547",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21540",
+      "title": "Pricing the Unprovable: Ambiguity, Turnstile Runs, and the Verifiability Discount in Crypto Protocols",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21540",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21491",
+      "title": "NEST: Stale-Robust Tokenized-Stock Measurement for a Crypto-Treasury LETF Stack",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21491",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21488",
+      "title": "Smoothness of Shortest Isogenies to Frobenius Conjugates",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21488",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21333",
+      "title": "QuasiLeak-Bench: Evaluating LLM-Based Privacy Detectors on Policy-Conditioned Quasi-Evidence Group Recovery",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21333",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21178",
+      "title": "Explicit reduced APN permutations: ramification and optimal Galois-ring lifts",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21178",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21174",
+      "title": "Amora: Communication-Efficient Private Approximate Nearest Neighbors Search",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21174",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21169",
+      "title": "Optimal Reduced Representatives of Quadratic APN Permutations in Odd Dimension",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21169",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21048",
+      "title": "SHIP: Structured and Hierarchical Insight with Privacy",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21048",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.21033",
+      "title": "Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.21033",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20987",
+      "title": "Practical wavelength selection for quantum-augmented networks over shared optical fiber",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20987",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20679",
+      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "listing_date": "Fri, 16 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20679",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20521",
+      "title": "Tulva: Practical Asynchronous Threshold FHE",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20521",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20427",
+      "title": "Phantomware: a Data Augmentation Framework for the Detection of Emerging Malware Campaigns",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20427",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20315",
+      "title": "Building Sound Evaluation Practices for Rust-Based Security Frameworks",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20315",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20284",
+      "title": "Towards Efficient Threat Intelligence Instruction Tuning via Quality-Aware and Optimal Transport-Guided Data Selection",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20284",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20245",
+      "title": "P2Patch: Exploit-Guided Vulnerability Repair",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20245",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20173",
+      "title": "Secret Sharing from Non-Extractable Randomness",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20173",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20171",
+      "title": "FreeSBee: A Constant-Time Compilation Pipeline",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20171",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20049",
+      "title": "CoRedSkill: Stealthy Skill Composition Attacks via AST-Guided Injection",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20049",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20047",
+      "title": "ESAU: Expeditious Swarm Remote Attestation for Pub-Sub IoT Networks with Untrusted Cloud-based Proxy Verifier",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20047",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19971",
+      "title": "Diagnose Before You Refine: Multi-Dimensional Judge Feedback for Query-Efficient Jailbreak Attacks",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19971",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19947",
+      "title": "Quiet Triggers, Loud Footprints: A Tri-Space Measurement Study of Backdoor Stealthiness",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19947",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19898",
+      "title": "Bilinear Compressive Security with Finitely Many Samples",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19898",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19856",
+      "title": "Lost in the Fallback: How Reliably Do Typed Decision Models Use Fallback Options?",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19856",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19830",
+      "title": "DarKnight: Retrieval-Guided Agentic Framework for Breaking Dark Web CAPTCHA Gates",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19830",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19808",
+      "title": "Adaptive and Proximal Federated Optimization for Transferable Network Intrusion Detection",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19808",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19766",
+      "title": "Analyzing and Mitigating Poisoning Attacks on Flow-Based Intrusion Detection",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19766",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19650",
+      "title": "AWARE-RG: Abstraction Aware Explanation of Resiliency Graphs for Cyber Physical Systems",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19650",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19607",
+      "title": "A Graph-Based Analysis of Comparability, Scale, and Attribution in Private Transformer Inference",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19607",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19566",
+      "title": "Mission (Im)Possible: Towards Autonomous Discovery of Autopilot Logic Flaws in Open-Source Drone Frameworks",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19566",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19498",
+      "title": "What You Sign Is Not What You Run: The Verifiability Gap in Quantized LLM Supply Chains",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19498",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19491",
+      "title": "Quantum-Resilient Secure Protocol for Decentralized Edge-IoT Peer-to-Peer Energy Trading Systems",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19491",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19384",
+      "title": "MMA-SafetyBench: A Benchmark for Multimodal Agent Safety Evaluation",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19384",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19325",
+      "title": "AutoPoly-HE: Autonomous Design of Polynomial Activations for Privacy-Preserving Encrypted Inference",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19325",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19278",
+      "title": "TrackShield: An Efficient Runtime Defense Against Availability Attacks on High-Performance Real-Time Multi-Object Tracking",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19278",
+      "decision": "detailed_candidate_review",
+      "report_id": "C2"
+    },
+    {
+      "arxiv_id": "2610.19264",
+      "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19264",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19039",
+      "title": "Combining Post-Quantum Cryptography and Quantum Key Distribution: Taxonomy, Constructions, Proofs, Standards, Deployments and Open Problems",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19039",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19005",
+      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19005",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18948",
+      "title": "Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18948",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18946",
+      "title": "Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18946",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20567",
+      "title": "Prioritizing Microservice Requests via Retries",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20567",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20537",
+      "title": "Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20537",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20437",
+      "title": "From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20437",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.20055",
+      "title": "GeoCloak: An Agentic Framework for Semantics-Preserving Geolocation Privacy via Peripheral Clue Manipulation",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.20055",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19852",
+      "title": "Global and Local Entropy Tests for STL Files Under IEEE-754 Validity Constraints",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19852",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19717",
+      "title": "No Way To Steal My Face: Proactive Defense Against Identity-Preserving Personalized Generation",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19717",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19335",
+      "title": "Differentially Private Learning of Markov Chains: Near-Optimal Sample Complexity for Item and User Level Privacy",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19335",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19306",
+      "title": "Did the LLM Answer the Question? A Semantic Reconstruction Game for Jailbreak Evaluation",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19306",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.19158",
+      "title": "AgentCIScope: Grounded Contextual Integrity Evaluation for LLM Agents",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.19158",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18934",
+      "title": "An Initial Study of Physiological Markers for Deepfake Speech Detection",
+      "listing_date": "Thu, 15 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18934",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18831",
+      "title": "AegisAsync: Symbolic Async-Event Simulation for Risks in Python Asynchronous Programs",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18831",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18787",
+      "title": "Bytes to Threats: Byte-Sequence Transformer For Malware Detection",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18787",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18660",
+      "title": "ARACDE: Retrofitting Databases with ABAC using External Authorization Engines",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18660",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18612",
+      "title": "Nudge the Judge: Uncovering Program Decision Hijacking in Real-World Jev Applications",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18612",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18609",
+      "title": "DPOison-VL: Clean Preference Poisoning in Vision-Language Direct Preference Optimization",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18609",
+      "decision": "detailed_candidate_review",
+      "report_id": "C3"
+    },
+    {
+      "arxiv_id": "2610.18594",
+      "title": "Autonomous Cyber Operations Gym for Training and Evaluating AI Models for Defence",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18594",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18585",
+      "title": "X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18585",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18558",
+      "title": "Prompt-Segmentation Meets ROI Encryption: Fine-Grained Video Protection Based on Diffusion Isolation",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18558",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18508",
+      "title": "Towards Safe Autonomy for Computer Use",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18508",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18457",
+      "title": "Kairos: Transactional Security Enforcement at the System Boundary for LLM Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18457",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18430",
+      "title": "FedGraph: Defending Federated Large Language Model Fine-Tuning Against Backdoor Attacks via Graph-Based Aggregation",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18430",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18391",
+      "title": "HULK: An Efficient Algorithm for Enabling Fast Bulk Bitwise Operations on Homomorphically Encrypted Data",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18391",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18359",
+      "title": "Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18359",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18326",
+      "title": "Jev-Guard: Fast Routing and Auditing Agent Actions over Editable Policy Trees",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18326",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18311",
+      "title": "BALLAST: Physics-Aware Moving Target Defense for Industrial Control Systems Using a Digital Twin Safety Oracle",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18311",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18262",
+      "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18262",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18230",
+      "title": "Holding Agents Accountable with Verifiable Agent Insurance",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18230",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18054",
+      "title": "Privacy-Preserving GNN Inference on Financial Transaction Graphs via Homomorphic Encryption",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18054",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18007",
+      "title": "Cost-Efficient Privacy Enforcement for Email-Generating LLM Agents under Strategic Information Requests",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18007",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17952",
+      "title": "Standing, Not Truth: Who May Say What About Whom in Agentic Selection",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17952",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17935",
+      "title": "Provenance and Authorization in Autobiographical Language Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17935",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17837",
+      "title": "ProtoArena: Can AI Agents Discover and Exploit Real-World Cross-Component Protocol Vulnerabilities?",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17837",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17820",
+      "title": "Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17820",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17727",
+      "title": "SkillScreen: High-Recall Screening of Malicious Agent Skills with Decision Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17727",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17725",
+      "title": "Beyond Model Scaling: Rethinking Sequence Construction for Transformer-based Network Intrusion Detection",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17725",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17711",
+      "title": "Local Leakage Resilience of Shamir Secret Sharing: Below Half Threshold Rate",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17711",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17614",
+      "title": "Extending Layered Attestation into ARM Application Run-Times",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17614",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17542",
+      "title": "Discovery or Memorization? A Faithful Benchmark for Real-World Business-Logic Vulnerability Discovery",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17542",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17523",
+      "title": "Enhanced Detective: A Dual-Stage Proactive Defense Against Internal Poisoning Attacks in Financial Fraud Detection Using Federated Learning",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17523",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17457",
+      "title": "BrowseSafe++: Benchmarking Prompt Injection Detection Across Web Contexts, Languages, and Browser Views",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17457",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17431",
+      "title": "VeriRouter: Towards Verifiable LLM Routing",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17431",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17313",
+      "title": "TRAP: Tree-Guided Reinforcement-Augmented Probing for Automated LLM Jailbreaking",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17313",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17249",
+      "title": "Tight End-to-End Accounting for Differentially Private Synthetic Data",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17249",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17126",
+      "title": "Who is the 'I' in AI? Establishing Decentralized Identity and Accountability for Autonomous Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17126",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17097",
+      "title": "SEAL-DT: An End-to-End Security Engineering and Assurance Framework for Cross-Domain Digital Twins",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17097",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17072",
+      "title": "Think Locally Before Computing Jointly: Efficient Secure Multi-Party Computation via Maximizing Local Processing",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17072",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17020",
+      "title": "CWE-bench: Refocusing Agentic Security from Exploitation to Defense",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17020",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16928",
+      "title": "Security and robustness analysis of encrypted communications for local home automation: ESPHome Native API and MQTT over TLS 1.3",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16928",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16872",
+      "title": "Toward Realistic Privacy Risk in FL-Enabled OT Intrusion Detection Systems",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16872",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16835",
+      "title": "Beyond User-Side Defenses: Image Protection in Open-Weight Diffusion Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16835",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16814",
+      "title": "StableJudge: A Lightweight Adversarial Defense Framework for LLM-as-a-Judge",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16814",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16790",
+      "title": "Logit Leakage through Floating-Point Bias Addition",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16790",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16778",
+      "title": "PrivacyGuard: Source-Linked Sanitization and Locally Resolvable PII References for Cloud GUI Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16778",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16550",
+      "title": "CT0: Cybersecurity Transformer",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16550",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16470",
+      "title": "CircuitBreak: Pruning a Sparse Safety Circuit of Neurons",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16470",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16458",
+      "title": "Differential Privacy Protected Preference Alignment on Survey Derived Data",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16458",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16449",
+      "title": "CryptoFlowBench: Benchmarking Multi-Hop Reasoning on Blockchains for Cryptocurrency Fund Tracing",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16449",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16414",
+      "title": "Purpose IR: Compiling User Purpose for Privacy-Preserving Agent Workflow State",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16414",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16384",
+      "title": "Risk-aware Road-network Trajectory Synthesis under Local Differential Privacy",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16384",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16373",
+      "title": "Resource-constrained Remote Attestation of Smart Meters Using Merkle Trees in a Trusted Execution Environment",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16373",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16336",
+      "title": "Doctor Trigger: A Framework for Release-Bound Face Verification",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16336",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16305",
+      "title": "ATTCK-R: Knowledge-Aware Long-Horizon Jailbreaking for Protected LLMs",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16305",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16164",
+      "title": "ML-Assisted Power Side-Channel Attacks on ML Accelerators in Shared FPGAs",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16164",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16100",
+      "title": "HDKEM: Authentication Allocation for Deniable Hybrid Key Exchange",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16100",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16087",
+      "title": "Confidential Error-Correcting Codes",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16087",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16039",
+      "title": "When Agents Talk, Secrets Travel: Topology-Driven Leakage and Recipient-Conditioned Sanitization in Multi-Agent LLM Systems",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16039",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16012",
+      "title": "Adversarial Robustness of Camera-Radar Sensor Fusion for Autonomous Driving",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16012",
+      "decision": "detailed_candidate_review",
+      "report_id": "C1"
+    },
+    {
+      "arxiv_id": "2610.16005",
+      "title": "DelegateGuard: Purpose-Bound Capabilities for Delegated LLM Agent Workflows",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16005",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15995",
+      "title": "AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15995",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15988",
+      "title": "CreepScope: Measuring Post-Use Authorization Exposure in Tool-Using Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15988",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15951",
+      "title": "Hardware-Assisted Multi-Stage Ransomware Detection with Adaptive Machine Learning",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15951",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15924",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15924",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15902",
+      "title": "Forensic Text Recovery from Document Thumbnails Using Text-Aware U-Net",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15902",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15883",
+      "title": "What the Model Cannot See: Covert and Provable Text Invisibility in LLMs",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15883",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15865",
+      "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15865",
+      "decision": "detailed_candidate_review",
+      "report_id": "T1"
+    },
+    {
+      "arxiv_id": "2610.15804",
+      "title": "Privacy Conductor: An Architectural Enforcement of Contextual Integrity in LLM-Based Document Retrieval",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15804",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15729",
+      "title": "LLM-based Code Auditing by Inferring and Evaluating Developer Assumptions",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15729",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15725",
+      "title": "SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15725",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15626",
+      "title": "Riemannian Suppression of Cross-Session Identity Leakage in Motor-Imagery EEG",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15626",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15541",
+      "title": "Fetch Me If You Can: A Comprehensive Analysis of Fetch Metadata",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15541",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15537",
+      "title": "Poisoned into Action: Context Attacks on Typed Decision Workflows",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15537",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15502",
+      "title": "From Observations to Authorized Actions: Measuring Source Information in Android Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15502",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15482",
+      "title": "Security in LLM-Assisted Coding: A Systematic Literature Review",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15482",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15396",
+      "title": "Training-Data Extraction from Genomic Language Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15396",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15390",
+      "title": "From Acoustic Sensing to Physical Actions: A Comprehensive Survey of Security Risks in Edge-Deployed Audio LLM-Based Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15390",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15265",
+      "title": "Asymptotics of Random-Lattice Enumeration: Beyond HKZ via Dense Sublattices",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15265",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15198",
+      "title": "On the Effectiveness of NetFlow-Based Deanonymization of Tor Onion Services (Extended Version)",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15198",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15138",
+      "title": "The Agent Clicks Approve: Injected Page Text Makes Browser Agents Authorize Access the Task Never Named",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15138",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15137",
+      "title": "When the Approved File Is Unchanged: Authority-Set Integrity for Deployment and Coding-Agent Approvals",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15137",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14968",
+      "title": "SEEK: Agentic Knowledge Graph Retrieval for Secure Code Generation",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14968",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14849",
+      "title": "StateSync-GKR: Design and Evaluation of a Reusable Sparse GKR Engine",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14849",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14836",
+      "title": "MetaCascade: End-to-End Attacks on Agent Skills via Metadata-Only Poisoning",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14836",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14795",
+      "title": "Protecting Shared Agent Workflows from Invalidation Attacks with Signed Trajectories and Runtime Verification",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14795",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14767",
+      "title": "When Does Trust Help? A Leakage-Free Evaluation of Representation- and Aggregation-Based Defenses Against Backdoors in Federated Intrusion Detection",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14767",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14766",
+      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14766",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14729",
+      "title": "No, Your Tools Are Not Enough: It's Time to Bring Agents to the Hunt",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14729",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14701",
+      "title": "Towards Merging-conditional Backdoor Unalignment against Large Language Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14701",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14606",
+      "title": "Decision Uncertainty-Oriented Watermarking (DUOW): Securing Multi-Agent Routing Against Policy Cloning",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14606",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14488",
+      "title": "Names Are Not Objects: Object-Bound Confinement for Compromised AI Coding Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14488",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14453",
+      "title": "SecReason: Vulnerability Detection and In-Stream Self-Repair for LLM Code Generation",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14453",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14431",
+      "title": "MemForm: Benchmarking Memory Formation Poisoning in LLM Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14431",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14427",
+      "title": "ByteMark: A Unified Byte-Level Watermark for Detection Across Language Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14427",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14404",
+      "title": "DICE: Tilting the Odds through Interface Attackson System One Model",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14404",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14378",
+      "title": "Tokenization-Invariant Watermarking: A Byte-Local Method for LLM Text",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14378",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14350",
+      "title": "Natural Code Transformation Confuses Agents in Vulnerability Analysis",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14350",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14300",
+      "title": "ARMOR: Adversary Cost Amplification via a Schema-Preserving Password-Hardening Retrofit for Resource-Constrained Systems",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14300",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14289",
+      "title": "Watermarking for Byzantine Robust LLM Training",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14289",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14215",
+      "title": "Physical Side-Channel Attacks on Edge LLMs: Extracting Output Tokens and User Prompts",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14215",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14194",
+      "title": "Embedding Asymmetry as Attack Signal: Detecting and Defending Active Label Inference in Vertical Federated Learning",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14194",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14148",
+      "title": "Memory-Coupled Unlearning for Data-Absent Identity Forgetting",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14148",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14132",
+      "title": "TrustPaper for forged PDF with Issuer Fingerprints",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14132",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14116",
+      "title": "An Empirical Case Study of Prompt Engineering Strategies for Bypassing Multi-Layer Agent Security Defenses",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14116",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14089",
+      "title": "SAGE: Efficient Protected Vision-Language Inference on Smart Glasses",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14089",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14040",
+      "title": "Symmetric Cryptography via Dirichlet Convolution",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14040",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14019",
+      "title": "Argos: A Multi-Tenant SaaS Architecture for Distributed Edge Security Orchestration",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14019",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18799",
+      "title": "$\\mathsf{EFI}\\Leftrightarrow\\mathsf{1PRS}$",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18799",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18721",
+      "title": "Dynamic Attack Surfaces: A Queue of Branching Processes",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18721",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18566",
+      "title": "Rethinking Quality in Large Language Model Routing: Security-Conditioned Model-and-Budget Selection",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18566",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18406",
+      "title": "Tanchun: Robust Flow-Based HTTP(S) DDoS Detection via Behavioral Attribute Guidance",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18406",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.18095",
+      "title": "CompanionSafe: From Multi-turn Safety Evaluation to Guardrails for AI Companions",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.18095",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17897",
+      "title": "The Maximum Nonlinearity of 8-variable Balanced Boolean Functions is 116",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17897",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17406",
+      "title": "Fast Forgiving Base64 Decoding with SIMD Instructions",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17406",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17382",
+      "title": "Mitigating Black-Box Score-Based Query Attacks via Gradient Confusion",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17382",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17374",
+      "title": "VulnBump: A Benchmark for Fixing Vulnerable Dependencies in Real Projects While Keeping the Build and Tests Green",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17374",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17332",
+      "title": "COMPASS: Membership Inference Attack Against Vision Large Language Models via Adaptive Noise Calibration",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17332",
+      "decision": "detailed_candidate_review",
+      "report_id": "C4"
+    },
+    {
+      "arxiv_id": "2610.17323",
+      "title": "SSM-Attack: Learning Where to Perturb for Black-Box Face Privacy",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17323",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17120",
+      "title": "Can Rényi Accountants Beat Lossless Accountants for DP-SGD?",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17120",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.17088",
+      "title": "The Right to Be Forgotten under Correlation: Privacy-Utility Tradeoffs",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.17088",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16826",
+      "title": "Unsupervised Data Drift Monitoring for Deployed Deepfake Speech Detectors",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16826",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16770",
+      "title": "Digital-Twin-Referenced Belief-Guided Q-Learning for Jammer Identification and Beam-Power Control in a mmWave Model",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16770",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16442",
+      "title": "Revisiting Fast Tendermint: An Agreement Violation and Two Repairs",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16442",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.16417",
+      "title": "Not All Challenges Are Equal: Evaluating Interactive Liveness Detection Against Real-Time Face Swaps",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.16417",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15991",
+      "title": "Revocation Is Not Complete at Receipt: An Executable Outcome Contract for Distributed Agent-Tool Gateways",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15991",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15884",
+      "title": "RetryBench: Separating Retry Permission from Recovery Outcomes in GPT Tool Use",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15884",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15872",
+      "title": "The Role of Generative Artificial Intelligence in Testing and Automation of Open RAN Systems: GNG-OTA Framework",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15872",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15721",
+      "title": "To Cache or Not to Cache: Understanding and Mitigating Safety Incompatibility in Cross-Model KV Cache Reuse",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15721",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15628",
+      "title": "Robust Detection of Directional Adversarial Attacks in Deep Neural Networks for Radiological Imaging",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15628",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15314",
+      "title": "Accuracy and Uncertainty in Machine Deception Detection (Research White Paper)",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15314",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15207",
+      "title": "Exploring Jailbreak Vulnerability Across Depth-Based Dynamic Inference in Large Language Models",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15207",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15177",
+      "title": "Only What You've Signed up For: Secure Workflows with Constrained Diffusion Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15177",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15153",
+      "title": "Can agents whose sole duty is to keep humans alive be hijacked to kill? Delayed multi-turn derived-action trap attacks in simulated high-stakes environments",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15153",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.15082",
+      "title": "GAMW: Generation-Aware Mel-Domain Watermarking for TTS Traceability",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.15082",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14810",
+      "title": "KedgeFlow: A Programmable Control Plane for Enterprise AI Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14810",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14739",
+      "title": "(Implicitly) Characterizing Probabilistic Polynomial Time as Used in Cryptography",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14739",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14661",
+      "title": "Declared but Unaccountable: Measuring the Seller-Identity Gap in Advertising Supply-Chain Transparency",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14661",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14615",
+      "title": "Limitations on Autoregressive Token Generation via Sequential Sampling",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14615",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14477",
+      "title": "What Counts as the Same Task? Executable Contracts for Robustness Evaluation of Tool-Using Agents",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14477",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14435",
+      "title": "DS and AMDS Symbol-Pair Codes from Three Families of Simple Root Cyclic Codes",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14435",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14269",
+      "title": "RoboFake: Are Deepfake Detectors Ready for Humanoid Face Robots?",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14269",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.14034",
+      "title": "Building Trustworthy Household Robots through Open-World Safety",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.14034",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2608.14643",
+      "title": "Proof-Gated Publication: Verify-Before-Commit Content Integrity for Serverless Data-Mesh Lakehouses",
+      "listing_date": "Wed, 14 Oct 2026",
+      "source": "https://arxiv.org/abs/2608.14643",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13853",
+      "title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13853",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13651",
+      "title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13651",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13623",
+      "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13623",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13597",
+      "title": "A Systematic Study of Security Enforcement at Android Inter-Component Boundaries",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13597",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13491",
+      "title": "EviRepair: Evidence-Driven Agents for Reliable Vulnerability Repair",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13491",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13372",
+      "title": "Towards Safe World Models: Risks, Defenses, and Evaluation",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13372",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13367",
+      "title": "Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13367",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13311",
+      "title": "Quantization-Tolerant Gradient Auditing for Active Inference-Attack Detection in Federated Learning",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13311",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13227",
+      "title": "Understanding and Mitigating Cross-Session Attacks via Persistent Artifacts in Agent Skill Composition",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13227",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13170",
+      "title": "Understanding Verification Vulnerabilities in Cross-chain Bridges: An Empirical Study",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13170",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13086",
+      "title": "Safety Graph: When Safety Responses Become Attack Surfaces in Cyber-Physical Systems",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13086",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13083",
+      "title": "The Limits of Query Monitoring against Distributed Model Extraction",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13083",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13071",
+      "title": "CAPE - Context-Aware Prioritization Engine for Vulnerability Scoring and Management",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13071",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13051",
+      "title": "Space Over Statistic, Retraining Over Ranking: Auditing Training Labels Under Label-Only Backdoors",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13051",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13043",
+      "title": "Provably Subexponential Algorithms for Bounded-Error LWE with Few Samples",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13043",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13026",
+      "title": "Post-Quantum Session Establishment for Matter over Thread: Message Size, Transport, and Protocol Options",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13026",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12952",
+      "title": "WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12952",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12948",
+      "title": "AgentValve: Sybil-Resilient Payment Authorization for Permissionless AI Markets",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12948",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12913",
+      "title": "Sample-Preserving Search-to-Decision Reduction for Noisy Linear Equations over Large Moduli",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12913",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12893",
+      "title": "Vulnerable Models in the AI Supply Chain: An Empirical Study of Adoption, Propagation, and Usage Patterns",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12893",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12795",
+      "title": "Power, Performance, and Area of HPC-Based Malware Detectors: An FPGA and Open-PDK ASIC Study",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12795",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12764",
+      "title": "Onions in the ATmosphere: Decentralizing Trust in Identity",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12764",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12712",
+      "title": "Better Batches, Better Privacy: Random Allocation for DP-BandMF",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12712",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12704",
+      "title": "PVBRF-ID: Private, Verifiable and Byzantine-Robust Federated Intrusion Detection for Oilfield Enterprise Networks",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12704",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12695",
+      "title": "Enabling Extended SGX Enclaves inside Confidential Virtual Machines",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12695",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12644",
+      "title": "Cancerous Backdoor Attack: Gradual Activation via Invisible Tokens and A Stage Controller",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12644",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12621",
+      "title": "HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12621",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12540",
+      "title": "Organizational Context for the Enterprise Security Brain",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12540",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12535",
+      "title": "SoK: Privacy-Preserving Order Matching",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12535",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12524",
+      "title": "An Exploration of Attacks on AI Agent Systems",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12524",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13928",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13928",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13357",
+      "title": "ECGWmark: Deep Watermarking for Electrocardiogram Signals",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13357",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.13333",
+      "title": "LETHE: Defending against Unauthorized Image-to-Video Generation via Value Diversity Collapse",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.13333",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12858",
+      "title": "The False Allure of \"Security by Obscurity\": A Game-Theoretic Approach",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12858",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12822",
+      "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12822",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12813",
+      "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12813",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12711",
+      "title": "Byzantine-Resilient Federated Large Language Model via Hypergraph Message Passing",
+      "listing_date": "Mon, 12 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12711",
+      "decision": "not_selected_for_detailed_review",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12463",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12463",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12415",
+      "title": "ORCAGen: Orchestrating Context-Aware Malware Deception with RAG-Guided Generative AI",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12415",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12233",
+      "title": "ReSI: Recursive Safety Improvement toward Resistant and Resilient AI",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12233",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12220",
+      "title": "One Node, Two Roles: Simultaneous Contests for Validation and Attention in Rollups",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12220",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12137",
+      "title": "Poster: A Preliminary Study of LLM Distillation Inference",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12137",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12106",
+      "title": "Could LLM Watermark Detection be Public?",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12106",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12050",
+      "title": "Protecting CPU AI On Edge TEEs: WebAssembly's Promise and Practical Challenges",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12050",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12024",
+      "title": "HPQ-AKE: A Provably Secure Sign-Less Hybrid Authenticated Key Exchange Protocol for Bandwidth-Constrained IoT and Edge Networks",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12024",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11996",
+      "title": "Moving Target Defense in SDN-enabled EV Charging Network",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11996",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11932",
+      "title": "From Public Posts to AI-Search Citations: Measuring the Fragility of AI Search",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11932",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11893",
+      "title": "A Security Meta-Model for Retrieval-Augmented Generation Systems",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11893",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11873",
+      "title": "Secure Aggregate Encryption with Identity-Based Authentication for Multi-Vendor FPGA Cloud Deployment",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11873",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11848",
+      "title": "SemField: A Simple, Linear, Continuous, yet Robust Semantic Watermark",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11848",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11843",
+      "title": "Anytime-valid detection of LLM weight exfiltration",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11843",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11640",
+      "title": "Host Attack Graph for Botnet Propagation",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11640",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11634",
+      "title": "LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11634",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11602",
+      "title": "Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11602",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11556",
+      "title": "SoK: Are LLMs Reliable at Source Code Recovery? A Taxonomy and Empirical Evaluation",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11556",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11513",
+      "title": "Certifying Hidden Paths: Scalable Topology Assurance for QKD Networks",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11513",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11511",
+      "title": "EIFL: Efficiently Protecting Global Model Privacy and Integrity Against an Untrusted Server in Federated Learning",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11511",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11490",
+      "title": "A Zero-Knowledge Signature Framework for Efficient Post-Quantum Message Authentication in Cooperative Automated Driving",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11490",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11488",
+      "title": "MARC: Multi-Bit Watermarking for Autoregressive Audio Generation against Codec Attacks",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11488",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11471",
+      "title": "A Survey of Security Research for Operating Systems",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11471",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11467",
+      "title": "GROB: A Multi-Agent Architecture for Public-Trace Investigation of Candidate Agentic Activity",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11467",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11439",
+      "title": "On-Chain Archaeology of Bitcoin Oracles: Evidence of Use under Limited Observability",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11439",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11398",
+      "title": "MORDOR: Mitigating Overheads of Read Disturbance Preventive Operations via Elastic Refresh Scheduling",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11398",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11290",
+      "title": "ProxyEraseAgent: Blind Watermark Removal in the Wild",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11290",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11285",
+      "title": "Soft Voting for Policy-Aware Private Data Synthesis",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11285",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11254",
+      "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11254",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11218",
+      "title": "BRACE: Differential Privacy for Dense Associative Memory with LSR Energy",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11218",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11163",
+      "title": "Characterizing Statistical Separability in TP-CRIV for Probabilistic AI Models",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11163",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11112",
+      "title": "False Claims, Credible Images: A Red-Teaming Benchmark for Commercial Image Generators",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11112",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11107",
+      "title": "Accelerating HQC for Post-Quantum TLS 1.3 on x86 IoT Gateways",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11107",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11030",
+      "title": "NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11030",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10992",
+      "title": "The Hint Weight of ML-DSA Signatures Is Key-Dependent: An Empirical Study across the Three FIPS 204 Parameter Sets",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10992",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10929",
+      "title": "Speedbumps: Rejection Attacks on Speculative Decoding",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10929",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10909",
+      "title": "Power Side-Channel Membership Inference Attack on Embedded Machine Learning",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10909",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10844",
+      "title": "When Flaws Cascade: Understanding Vulnerabilities and Exploitation Chains in JavaScript Engines",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10844",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10766",
+      "title": "CPU-Auth: Device Fingerprinting for Authentication via DVFS Side-Channel",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10766",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10752",
+      "title": "Detection-Guided Adaptive Purification with Diffusion Models for Robust Audio Deepfake Detection",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10752",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10742",
+      "title": "BRANCH: Bypassing Multi-Scanner AI Guardrails",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10742",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10735",
+      "title": "DITTO: A Context-aware Pickle-based Pre-Trained Model Scanner for Effective Security Audits",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10735",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10644",
+      "title": "SoK: Failure Modes in Common Criteria Product Evaluation - A Taxonomy and Design-for-Evaluability Guidance",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10644",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10625",
+      "title": "Safe at One Loop, Risky at Another: Aligning Safety Across Recurrent Depths in Looped Language Models",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10625",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10620",
+      "title": "When AI Finds Hidden Messages, Does It Report?",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10620",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10617",
+      "title": "MRCert: Towards Post-deployment Patch Robustness Certification for Adversarially Patched Samples via Type-specific Masking",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10617",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10612",
+      "title": "PyCache Trap: The Inspection-Execution Gap in Agent Skill Scanners",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10612",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10608",
+      "title": "From Investigation Failures to Reliable SOC Agents: Understanding and Improving LLM-Based Alert Triage",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10608",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10597",
+      "title": "Certified Corruption Budgets: Anytime-Valid Leaderboard Claims under Adaptive Rigging",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10597",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12357",
+      "title": "Improved Local Leakage Resilience of Shamir Secret Sharing and Worst-Case Optimal Polynomial Intersection",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12357",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.12211",
+      "title": "Verification with Transfer: Exact Information Frontiers and Their Price in Calls",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.12211",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11870",
+      "title": "Local Sensitivity in Exponential Selection: Failure Modes and Valid Calibrations",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11870",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11496",
+      "title": "Stop My Dancing! Understanding, Detecting and Attributing Motion-Aware Deepfake Videos",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11496",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11436",
+      "title": "Adversarial Cues in Decision Models Used as Judges: The Role of Request Presentation",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11436",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11169",
+      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11169",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.11031",
+      "title": "Language Modeling is Monotone Compression",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.11031",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10659",
+      "title": "Applying Security by Design at the Point of Execution: How Governed Security Requirements Affect the Security of AI-Generated Code",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10659",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10655",
+      "title": "Nullify: Null-Space Activation Steering for Training-Free LLM Unlearning",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10655",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10616",
+      "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10616",
+      "decision": "outside_window_listing",
+      "report_id": null
+    },
+    {
+      "arxiv_id": "2610.10613",
+      "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
+      "listing_date": "Fri, 9 Oct 2026",
+      "source": "https://arxiv.org/abs/2610.10613",
+      "decision": "outside_window_listing",
+      "report_id": null
+    }
+  ],
+  "detailed_candidates": [
+    {
+      "report_id": "C1",
+      "title": "Adversarial Robustness of Camera-Radar Sensor Fusion for Autonomous Driving",
+      "canonical_key": "arxiv:2610.16012",
+      "arxiv_id": "2610.16012",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.16012"
+    },
+    {
+      "report_id": "C2",
+      "title": "TrackShield: An Efficient Runtime Defense Against Availability Attacks on High-Performance Real-Time Multi-Object Tracking",
+      "canonical_key": "arxiv:2610.19278",
+      "arxiv_id": "2610.19278",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.19278"
+    },
+    {
+      "report_id": "C3",
+      "title": "DPOison-VL: Clean Preference Poisoning in Vision-Language Direct Preference Optimization",
+      "canonical_key": "arxiv:2610.18609",
+      "arxiv_id": "2610.18609",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.18609"
+    },
+    {
+      "report_id": "C4",
+      "title": "COMPASS: Membership Inference Attack Against Vision Large Language Models via Adaptive Noise Calibration",
+      "canonical_key": "arxiv:2610.17332",
+      "arxiv_id": "2610.17332",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.17332"
+    },
+    {
+      "report_id": "C5",
+      "title": "GhostLock: Learning-Assisted Blind GPS Signal Nullification Without Victim-Side Information",
+      "canonical_key": "arxiv:2610.20831",
+      "arxiv_id": "2610.20831",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.20831"
+    },
+    {
+      "report_id": "C6",
+      "title": "Can Autonomous Vehicles Keep Their Cool? A Survey of Thermal Side-Channel and Perception Attacks",
+      "canonical_key": "arxiv:2610.21034",
+      "arxiv_id": "2610.21034",
+      "status": "pending_eligible_venue",
+      "recommendation": "跟踪",
+      "source": "https://arxiv.org/abs/2610.21034"
+    },
+    {
+      "report_id": "T1",
+      "title": "Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel",
+      "canonical_key": "10.1145/3830454.3832587",
+      "arxiv_id": "2610.15865",
+      "status": "pending_first_publication_date",
+      "recommendation": "跟踪",
+      "source": "https://arxiv.org/abs/2610.15865"
+    },
+    {
+      "report_id": "C7",
+      "title": "From sensor trust to swarm resilience: TinyML-guided integrity-aware communication scheduling for low-altitude UAV networks",
+      "canonical_key": "10.1016/j.adhoc.2026.104449",
+      "status": "pending_cas_jif_and_direct_identity_verification",
+      "date_boundary_unresolved": true,
+      "recommendation": "跟踪",
+      "source": "https://doi.org/10.1016/j.adhoc.2026.104449"
+    },
+    {
+      "report_id": "C8",
+      "title": "Multi-cepstral feature integration for audio deepfake detection under domain shift",
+      "canonical_key": "10.1016/j.cviu.2026.104981",
+      "status": "pending_cas_jif_and_direct_identity_verification",
+      "date_boundary_unresolved": false,
+      "recommendation": "跟踪",
+      "source": "https://doi.org/10.1016/j.cviu.2026.104981"
+    }
+  ],
+  "validation": {
+    "command": "python scripts/validate_report.py reports/daily/2026/2026-10-17.md",
+    "exit_code": 0,
+    "stdout": "error_count=0"
+  },
+  "zotero": {
+    "api_http_status": 200,
+    "connector_http_status": 200,
+    "version": "10.0.6",
+    "library_id": 1,
+    "selected_name": "感知AI安全",
+    "collection_key": "D89IZYLA",
+    "imports": 0,
+    "reason": "No must-read entries; no import duplicate gate was invoked."
+  }
+}
