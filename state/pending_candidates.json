@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T18:10:37.082007+08:00",
+  "updated_at": "2026-10-19T09:33:33.584582+08:00",
   "rule": "Recheck pending candidates even when a canonical key is in seen_dois.txt; publication/eligibility changes are new events.",
   "candidates": [
     {
@@ -9,7 +9,9 @@
       "arxiv_id": "2610.16012",
       "status": "pending_eligible_venue",
       "recommendation": "值得读",
-      "source": "https://arxiv.org/abs/2610.16012"
+      "source": "https://arxiv.org/abs/2610.16012",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "C2",
@@ -18,7 +20,9 @@
       "arxiv_id": "2610.19278",
       "status": "pending_eligible_venue",
       "recommendation": "值得读",
-      "source": "https://arxiv.org/abs/2610.19278"
+      "source": "https://arxiv.org/abs/2610.19278",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "C3",
@@ -27,7 +31,9 @@
       "arxiv_id": "2610.18609",
       "status": "pending_eligible_venue",
       "recommendation": "值得读",
-      "source": "https://arxiv.org/abs/2610.18609"
+      "source": "https://arxiv.org/abs/2610.18609",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "C4",
@@ -36,7 +42,9 @@
       "arxiv_id": "2610.17332",
       "status": "pending_eligible_venue",
       "recommendation": "值得读",
-      "source": "https://arxiv.org/abs/2610.17332"
+      "source": "https://arxiv.org/abs/2610.17332",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "C5",
@@ -45,7 +53,9 @@
       "arxiv_id": "2610.20831",
       "status": "pending_eligible_venue",
       "recommendation": "值得读",
-      "source": "https://arxiv.org/abs/2610.20831"
+      "source": "https://arxiv.org/abs/2610.20831",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "C6",
@@ -54,7 +64,9 @@
       "arxiv_id": "2610.21034",
       "status": "pending_eligible_venue",
       "recommendation": "跟踪",
-      "source": "https://arxiv.org/abs/2610.21034"
+      "source": "https://arxiv.org/abs/2610.21034",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "T1",
@@ -63,25 +75,196 @@
       "arxiv_id": "2610.15865",
       "status": "pending_first_publication_date",
       "recommendation": "跟踪",
-      "source": "https://arxiv.org/abs/2610.15865"
+      "source": "https://arxiv.org/abs/2610.15865",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Original source rechecked; eligibility unresolved; see 2026-10-19 report"
     },
     {
       "report_id": "C7",
       "title": "From sensor trust to swarm resilience: TinyML-guided integrity-aware communication scheduling for low-altitude UAV networks",
       "canonical_key": "10.1016/j.adhoc.2026.104449",
-      "status": "pending_cas_jif_and_direct_identity_verification",
+      "status": "pending_cas_jif_and_date_boundary",
       "date_boundary_unresolved": true,
       "recommendation": "跟踪",
-      "source": "https://doi.org/10.1016/j.adhoc.2026.104449"
+      "source": "https://doi.org/10.1016/j.adhoc.2026.104449",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Crossref DOI/title matched; publisher indexed online date corroborated; CAS/JIF unresolved"
     },
     {
       "report_id": "C8",
       "title": "Multi-cepstral feature integration for audio deepfake detection under domain shift",
       "canonical_key": "10.1016/j.cviu.2026.104981",
-      "status": "pending_cas_jif_and_direct_identity_verification",
+      "status": "pending_cas_jif",
       "date_boundary_unresolved": false,
       "recommendation": "跟踪",
-      "source": "https://doi.org/10.1016/j.cviu.2026.104981"
+      "source": "https://doi.org/10.1016/j.cviu.2026.104981",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00",
+      "last_check_result": "Crossref DOI/title matched; publisher indexed online date corroborated; CAS/JIF unresolved"
+    },
+    {
+      "report_id": "N01",
+      "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+      "canonical_key": "arxiv:2610.22301",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22301",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N02",
+      "title": "PAGE404: Breaking GPU Isolation Through Hardware-assisted Page Migration",
+      "canonical_key": "arxiv:2610.20962",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.20962",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N03",
+      "title": "Benchmarking Post-Quantum Key Encapsulation in S3-Compatible Object Storage under Client Concurrency",
+      "canonical_key": "arxiv:2610.21457",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.21457",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N04",
+      "title": "Forensic Analysis of the HackRF One with PortaPack Mayhem Firmware",
+      "canonical_key": "arxiv:2610.20647",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.20647",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N05",
+      "title": "Can Agents Truly Forget? Explore Machine Unlearning for LLM Agents",
+      "canonical_key": "arxiv:2610.17659",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.17659",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N08",
+      "title": "Training-Free On-Policy Distillation",
+      "canonical_key": "arxiv:2610.22236",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22236",
+      "domain": "AI",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N09",
+      "title": "EliteReplay: Preserving Diverse Solutions in RL Post-Training via Quality-Diversity Search",
+      "canonical_key": "arxiv:2610.22290",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22290",
+      "domain": "AI",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N10",
+      "title": "Thinker-WM: A Unified World Model with Shared Multimodal Representations for Embodied Intelligence",
+      "canonical_key": "arxiv:2610.18447",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.18447",
+      "domain": "多模态",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N11",
+      "title": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
+      "canonical_key": "arxiv:2610.22321",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22321",
+      "domain": "多模态",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N12",
+      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "canonical_key": "arxiv:2610.22200",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22200",
+      "domain": "Agent",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N13",
+      "title": "Beyond Downstream QA: Rethinking How We Evaluate Agent Memory",
+      "canonical_key": "arxiv:2610.22209",
+      "status": "pending_eligible_venue",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22209",
+      "domain": "Agent",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N14",
+      "title": "BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition",
+      "canonical_key": "arxiv:2610.21565",
+      "status": "pending_first_publication_date",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.21565",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N15",
+      "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+      "canonical_key": "arxiv:2610.22130",
+      "status": "pending_first_publication_date",
+      "recommendation": "值得读",
+      "source": "https://arxiv.org/abs/2610.22130",
+      "domain": "AI",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N06",
+      "title": "MotifTrace: multi-stage attack investigation via automated stage discovery and path reconstruction on provenance graphs",
+      "canonical_key": "10.1186/s42400-026-00651-x",
+      "status": "pending_cas",
+      "recommendation": "值得读",
+      "source": "https://link.springer.com/article/10.1186/s42400-026-00651-x",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
+    },
+    {
+      "report_id": "N07",
+      "title": "Enterprise Architecture Threat Modeling for Cybersecurity Risk Management",
+      "canonical_key": "10.1111/risa.70377",
+      "status": "pending_cas_jif",
+      "recommendation": "值得读",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1111/risa.70377",
+      "domain": "网络空间安全",
+      "first_report": "reports/daily/2026/2026-10-19.md",
+      "last_checked_at": "2026-10-19T09:33:33.584582+08:00"
     }
   ]
 }
