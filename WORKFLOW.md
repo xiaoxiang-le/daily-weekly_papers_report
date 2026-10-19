@@ -32,6 +32,13 @@
 
 分别向 Undermind 提交网络空间安全、AI、多模态、Agent 四组检索任务。每组明确研究范围、时间窗口和纳入排除条件；保留完整自然语言请求及实际结构化参数。若工具不支持日期过滤，取得候选后逐篇核验首次公开或正式发表时间，不将搜索发现时间当作发表时间。周报复用本周日报的已核验记录，仅补检遗漏和未解决窗口。
 
+已确认可用接口的执行顺序（每次仍以当前工具说明为准）：
+
+1. 每个新会话先调用 `get_orientation`，再用 `list_workspaces` 核验自动化记忆中记录的工作区 ID；用 `inspect_folders` 和 `inspect_deep_searches` 查看已有内容，复用适用的检索结果，避免重复创建工作区或重复发起任务。
+2. 日常增量查找使用 `search_papers`，以 `search_type=semantic` 检索全局文献；`sample_abstract` 写成目标论文摘要风格的 2–3 句话，各方向按子问题迭代覆盖。`published_from` / `published_until` 只使用接口支持的年份或月份，日级窗口另行核验。`year_descending` 仅对有限语义候选集排序，不能声称按日期遍历全库；语义检索最多返回前 100 个匹配，每页最多 50 条。
+3. 需要深入补检时使用 `launch_deep_search`，将研究目标写成独立、完整的自然语言段落，不提交关键词堆砌、期刊名单或猜测性筛选条件。期刊分区、会议白名单及精确时间范围由返回候选后的筛选执行。用 `inspect_deep_searches(status_only=true)` 检查进度，完成后分页读取结果并记录真实搜索名称或路径；按插件说明展示结果卡，每轮对话最多一张卡。
+4. 用 `get_paper_info(show_doi=true)` 取得 DOI 或来源链接，待定候选可用 `lookup_papers_by_metadata` 按 DOI/标题重新查找。有可用全文且需核实具体结论时使用 `read_pdfs`；Undermind 的 cite key 只在所属工作区内有效，不能替代 Zotero item key 或全局 DOI 去重键。
+
 对异步检索记录真实任务 ID、状态与结果链接（接口提供时），按插件说明读取完成结果。记录检索时间、各组返回记录数、去重数、实际筛选数、纳入数、待核验数以及覆盖限制；未返回的字段写“接口未提供”，不得补造。交叉论文继续使用一个主条目和多个领域标签。
 
 Undermind 返回结果作为发现线索。论文出版方页面、Crossref、DBLP、PubMed、IEEE、ACM、USENIX、NDSS、CVF、NeurIPS、ICML、ICLR、AAAI 和 arXiv 等可追溯来源用于身份、时间、刊会及原文证据核验；中科院分区和影响因子仍按第 3 节独立核验，不能以 Undermind 排名或摘要替代证据。
